@@ -27,7 +27,7 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{
 			"courses": []Course{
 				{
-					Name:  "JS for beginners",
+					Name:  "Rust for beginners",
 					Price: 10,
 				},
 				{
